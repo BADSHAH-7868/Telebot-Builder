@@ -11,9 +11,10 @@ interface Model {
 }
 
 const FREE_MODELS: Model[] = [
-  // { id: 'openai/gpt-oss-20b:free', name: 'GPT-OSS 20B', provider: 'OpenAI', description: 'Powerful general-purpose model' },
-  { id: 'openrouter/sonoma-dusk-alpha', name: 'Sonoma Dusk Alpha', provider: 'Openrouter', description: 'Latest experimental model' },
-  { id: 'openrouter/sonoma-sky-alpha', name: 'Sonoma Sky Alpha', provider: 'Openrouter', description: 'Latest experimental model' },
+  // // { id: 'openai/gpt-oss-20b:free', name: 'GPT-OSS 20B', provider: 'OpenAI', description: 'Powerful general-purpose model' },
+  // { id: 'openrouter/sonoma-dusk-alpha', name: 'Sonoma Dusk Alpha', provider: 'Openrouter', description: 'Latest experimental model' },
+  // { id: 'openrouter/sonoma-sky-alpha', name: 'Sonoma Sky Alpha', provider: 'Openrouter', description: 'Latest experimental model' },
+  { id: 'google/gemini-2.0-flash-exp:free', name: 'Gemini 2-0 Flash', provider: 'Google', description: 'Latest experimental model' },
   // { id: 'agentica-org/deepcoder-14b-preview:free', name: 'DeepCoder 14B', provider: 'Agentica', description: 'Specialized coding model' },
   // { id: 'openai/gpt-oss-120b:free', name: 'GPT-OSS 120B', provider: 'OpenAI', description: 'Large context understanding' },
   // { id: 'z-ai/glm-4.5-air:free', name: 'GLM 4.5 Air', provider: 'Z.AI', description: 'Fast and efficient model' },
